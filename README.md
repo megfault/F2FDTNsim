@@ -40,3 +40,14 @@ If you wish to extend the code, to get a session to the database, simply call:
 - numpy
 - networkx
 - the module for the database you will store the data in (we used psycopg2 for postgres)
+
+
+## Usage in academic work
+
+Please note that any use of the simulator which results in an academic publication or other publication which includes a bibliography must include a citation to this project. Please use the following BibTex citation code:
+
+@url{warplab-ofdm,
+    Author = {Barroso, Ana and Hollick, Matthias},
+    Title = {Delay-tolerant friend-to-friend network simulator},
+    Url = {http://www.seemoo.tu-darmstadt.de/research/software/f2fdtnsim/}
+}
