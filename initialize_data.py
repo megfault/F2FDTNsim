@@ -1,5 +1,3 @@
-__author__ = 'ana'
-
 from random import sample, choice
 
 import networkx as nx
