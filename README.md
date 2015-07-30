@@ -8,7 +8,7 @@ Before you start, place your mobility input file in the input directory (create 
     
 where n1 and n2 are integers that identify two nodes, and b_ and e_ define the beginning and end of a contact between the two nodes. Time is given in seconds. The simulation starts at time 0.
 
-To run the simulation, start by configuring parameters in the files initialize_data.py and simulate.py and run the following steps:
+To run the simulation, start by configuring parameters in config.yaml and run the following steps:
 
 1. initialize the data model
 
