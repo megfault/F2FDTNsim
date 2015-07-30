@@ -1,4 +1,4 @@
-This is a simulator for a delay-tolerant friend-to-friend network. It was written for the purpose of evaluating the network performance of the anonymous wirelesscommunication scheme [aDTN](https://www.seemoo.tu-darmstadt.de/team/ana-barroso/adtn).
+This is a simulator for a delay-tolerant friend-to-friend network. It was written for the purpose of evaluating the network performance of the anonymous wireless communication scheme [aDTN](https://www.seemoo.tu-darmstadt.de/team/ana-barroso/adtn).
 
 ## Instructions
 
