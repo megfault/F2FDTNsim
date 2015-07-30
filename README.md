@@ -1,5 +1,13 @@
 This is a simulator for a delay-tolerant friend-to-friend network. It was written for the purpose of evaluating the network performance of the anonymous wireless communication scheme [aDTN](https://www.seemoo.tu-darmstadt.de/team/ana-barroso/adtn).
 
+## Requirements
+
+The simulator is written in python3 and requires following python modules:
+- sqlalchemy
+- numpy
+- networkx
+- the module for the database you will store the data in (we used psycopg2 for postgres)
+
 ## Instructions
 
 Before you start, place your mobility input file in the input directory (create the directory if it doesn't exist yet). The lines of the file have following format:
@@ -32,15 +40,6 @@ If you wish to extend the code, to get a session to the database, simply call:
 
     from bootstrap import get_mobility_session
     session = get_mobility_session()
-
-## Requirements
-
-The simulator is written in python3 and requires following python modules:
-- sqlalchemy
-- numpy
-- networkx
-- the module for the database you will store the data in (we used psycopg2 for postgres)
-
 
 ## Usage in academic work
 
