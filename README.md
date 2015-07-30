@@ -12,18 +12,19 @@ To run the simulation, start by configuring parameters in the files initialize_d
 
 1. initialize the data model
 
-    python3 model.py
+        python3 model.py
 
 2. read the mobility input from the input directory and generate the simulation events
 
-    python3 initialize_data.py
+        python3 initialize_data.py
 
 3. handle the simulation events in order of occurrence and collect statistics
 
-    python3 simulate.py 
+        python3 simulate.py 
 
 4. process statistics and write them into the data directory (please create one if it doesn't already exist)
-    python3 analyze_results.py
+
+        python3 analyze_results.py
 
 
 ## Database connection
