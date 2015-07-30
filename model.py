@@ -1,7 +1,3 @@
-__author__ = 'ana'
-
-# TODO: rename frequency to interval
-
 from sqlalchemy import Column, Integer, ForeignKey, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
