@@ -35,7 +35,7 @@ If you wish to extend the code, to get a session to the database, simply call:
 
 ## Requirements
 
-- python3
+The simulator is written in python3 and requires following python modules:
 - sqlalchemy
 - numpy
 - networkx
