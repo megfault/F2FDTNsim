@@ -6,7 +6,7 @@ Before you start, place your mobility input file in the input directory (create 
 
     n1 n2 b0*e0 b1*e1 ... b2*e2
     
-where n1 and n2 are integers that identify two nodes, and b_ and e_ define the beginning and end of a contact between the two nodes. Time is given in seconds. The simulation starts at time 0.
+where n1 and n2 are integers that identify two nodes, and b_ and e_ define the beginning and end times of a contact between the two nodes. Time is an integer, given in seconds. The simulation starts at time 0.
 
 To run the simulation, start by configuring parameters in config.yaml and run the following steps:
 
