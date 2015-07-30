@@ -1,0 +1,21 @@
+group_limits:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+group_sizes:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+broadcast_freqs:
+  - 1
+  - 5
+  - 25
+  - 125
+node_count: 50
+total_time: 172800    # 3600 * 24 * 2  (i.e. two days)
