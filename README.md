@@ -2,18 +2,28 @@ This is a simulator for a delay-tolerant friend-to-friend network. It was writte
 
 ## Instructions
 
-Before you start, place your mobility input file in the input directory. The lines of the file have following format:
+Before you start, place your mobility input file in the input directory (create the directory if it doesn't exist yet). The lines of the file have following format:
 
     n1 n2 b0*e0 b1*e1 ... b2*e2
     
 where n1 and n2 are integers that identify two nodes, and b_ and e_ define the beginning and end of a contact between the two nodes. Time is given in seconds. The simulation starts at time 0.
 
-To run the simulation, start by configuring parameters in the files initialize_data.py and simulate.py and execute:
+To run the simulation, start by configuring parameters in the files initialize_data.py and simulate.py and run the following steps:
 
-1. python3 model.py  (initialize the data model)
-2. python3 initialize_data.py (reads the mobility input from the input directory and generates the simulation events)
-3. python3 simulate.py (goes over the simulation events in order of occurrence and collects statistics)
-4. python3 analyze_results.py (processes statistics and writes them into the data directory)
+1. initialize the data model
+
+    python3 model.py
+
+2. read the mobility input from the input directory and generate the simulation events
+
+    python3 initialize_data.py
+
+3. handle the simulation events in order of occurrence and collect statistics
+
+    python3 simulate.py 
+
+4. process statistics and write them into the data directory (please create one if it doesn't already exist)
+    python3 analyze_results.py
 
 
 ## Database connection
