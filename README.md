@@ -26,7 +26,7 @@ To run the simulation, start by configuring parameters in config.yaml and run th
 
         python3 initialize_data.py
         
-3. (optional) create indexes on relevant table columns: node1 and node2 of contacts table, time, sender_id and frequency on broadcast and recipient_id and broadcast_id on delivery.
+3. (optional) create indexes on relevant table columns: `node1` and `node2` of `contacts` table; `time`, `sender_id` and `frequency` of `broadcast` table; and `recipient_id` and `broadcast_id` of `delivery` table.
 
 4. handle the simulation events in order of occurrence and collect statistics
 
