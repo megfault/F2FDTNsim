@@ -1,5 +1,4 @@
 group_limits:
-  - 1
   - 2
   - 3
   - 4
@@ -7,7 +6,6 @@ group_limits:
   - 6
   - 7
 group_sizes:
-  - 1
   - 2
   - 3
   - 4
